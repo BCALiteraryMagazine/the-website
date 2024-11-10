@@ -1,0 +1,17 @@
+header {
+    background-color: #EDA4BD; 
+    /* TODO adjust colores */
+    padding: 3rem 0;
+    width: 100%;
+}
+
+header nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav img {
+    width: 3rem;
+    aspect-ratio: 1/1;
+}

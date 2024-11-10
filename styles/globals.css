@@ -1,0 +1,16 @@
+:root {
+    /* TODO: better usage of colors */
+    --color-green: #B4D6CD;
+    --color-yellow: #FFDA76;
+    --color-pink-light: #FF8C9E;
+    --color-pink-deep: #FF4E88;
+    --color-off-white: #EED5C2;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-off-white);
+}
