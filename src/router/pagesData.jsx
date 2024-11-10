@@ -3,7 +3,7 @@ import Home from "../pages/Home";
 
 const pagesData = [
   {
-    path: "",
+    path: "/",
     element: <Home />,
     title: "Home",
     showOnHeader: true
@@ -11,7 +11,8 @@ const pagesData = [
   {
     path: "/about",
     element: <About />,
-    title: "About",
+    title: "About Us",
+    headerTitle: "About",
     showOnHeader: true
   },
   {

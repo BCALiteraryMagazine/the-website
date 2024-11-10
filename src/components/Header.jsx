@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header>
             <Link to="/">
-                <h1>Header Title</h1>
+                <h1>BCA LitMag</h1>
             </Link>
             <nav>
                 <ul>
@@ -15,7 +15,8 @@ const Header = () => {
                         pagesData.map(pData => {
                             return pData.showOnHeader && (
                                 <li>
-                                    <Link to={pData.path}>{pData.title}</Link>
+                                    {/* if a specific header title is specified, use that, otherwise use the title */}
+                                    <Link to={pData.path}>{pData.headerTitle ?? pData.title}</Link>
                                 </li>
                             )
                         })
